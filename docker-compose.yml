@@ -9,3 +9,4 @@ services:
       - /app/node_modules
     environment:
       - NODE_ENV=development
+    command: yarn start  # Usando o comando 'yarn start' para rodar a aplicação
